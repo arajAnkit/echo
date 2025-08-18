@@ -1,7 +1,7 @@
-import { OrgSelectView } from "@/modules/auth/ui/views/org-select-view";
+import { OrgSelectionView } from "@/modules/auth/ui/views/org-selection-view";
 
-const OrgSelection = () => {
-  return <OrgSelectView />;
+const Page = () => {
+  return <OrgSelectionView />;
 };
 
-export default OrgSelection;
+export default Page;
